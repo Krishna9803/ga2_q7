@@ -1,0 +1,16 @@
+name: Test Action
+
+on:
+  push:
+    branches:
+      - main   # or any other branch you want to trigger this action on
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Display Greeting  # Updated to a more typical descriptive name
+        run: echo "Hello, world!"
