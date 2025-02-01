@@ -12,5 +12,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Display Greeting  # Updated to a more typical descriptive name
+      - name: 21f2001306@ds.study.iitm.ac.in
         run: echo "Hello, world!"
